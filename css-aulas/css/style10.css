@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #13a3a8;
+  border: 5px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background:black;
+
+  padding: 50px;
+}
+
+h2 {
+  color: red;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.teste {
+  background-color: black;
+  height: 60px;
+  max-width: 600px;
+}
+
+

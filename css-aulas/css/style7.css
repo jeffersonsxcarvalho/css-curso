@@ -1,0 +1,28 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #13a3a8;
+  border: 5px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background:black;
+}
+
+p {
+  color: red;
+}
+
+.exemplo-back {
+  height: 300px;
+  background-color: gray;
+  background-image: url('../img/back1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background: gray url('../img/back1.jpg') no-repeat center cover;
+  
+
+}

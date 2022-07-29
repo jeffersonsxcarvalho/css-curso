@@ -1,0 +1,48 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: #13a3a8;
+  border: 5px solid black;
+  border-radius: 25px;
+  text-align: center;
+  background:black;
+
+  padding: 50px;
+}
+
+p {
+  color: red;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  text-align: justify;
+  direction: rtl;
+
+}
+
+.exemplo-back {
+  height: 100px;
+  background: gray url('../img/back1.jpg') no-repeat center cover;
+  margin-bottom: 100px;
+}
+
+.botao {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  margin-left: 30%;
+  background: green;
+  color: white;
+  
+  padding: 10px 50px;
+  bottom: 50px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.botao:hover{
+  background: gray;
+}
