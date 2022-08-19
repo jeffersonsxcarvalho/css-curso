@@ -1,0 +1,46 @@
+Curso Completo CSS
+
+GERAL
+
+Aula 1
+* CSS inline
+
+Aula 2 
+* CSS interno (Incorporado na página)
+
+Aula 3
+* CSS Externo
+
+Especificidade
+* 1 - Inline
+* 2 - Interno (<style>)
+* 3 - Externo (<link>)
+
+Aula 4
+* Id, Classe, Tags, *(universal)
+
+* Obs.: Id é sempre único na página.
+  Os nomes dos Ids ou Classes não pode começar com número.
+
+
+PROPRIEDADES
+
+Aula 5
+* Propriedade color
+
+Aula 6
+* Propriedade Background
+
+  * Background (color, image, size)
+
+color: rgb, hex, name ...
+
+image: tomar cuidado pois a referencia de página aqui é onde o arquivo de estilo está e não a index.
+
+size: 
+
+*contain (ele coloca a imagem toda dentro do espaço, pode faltar imagem para o espaço, então ou ele vai repetir e se vc colocar
+para não repetir ele vai deixar um espaço não preenchido.
+
+*cover: (ele preenche todo o espaço com a imagem, sobrando imagem para o espaço, logo o resto da imagem não aparecerá.)
+
