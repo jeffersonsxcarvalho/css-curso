@@ -44,3 +44,131 @@ para não repetir ele vai deixar um espaço não preenchido.
 
 *cover: (ele preenche todo o espaço com a imagem, sobrando imagem para o espaço, logo o resto da imagem não aparecerá.)
 
+repeat:
+
+*no-repeat (Coloca a imagem uma vez só)
+
+*repeat (Repete a imagem para preencher os espaços (padrão)
+
+*repeat-x (repete no eixo x - horizontal e não no y - vertical)
+
+*repeat-y (o contrário do repeat-x)
+
+position:
+
+*center (Mostra a umagem no centro)
+
+*top (mostra a imagem a partir do top - padrão no meu navegador)
+
+*right (Mostra a imagem a partir da direita)
+
+*bottom (mostra a imagem a partir da base)
+
+Obs.: Se o background-size for contain, quando se usa o position estamos falando de onde a imagem aparecerá no espaço.
+
+
+Short-hand Fazer tudo num comando só
+
+background: cor url repeat position;
+Obs.: Somente o cover que é colocado numa outra expressão
+
+
+
+
+
+Aula 7
+
+* Propriedade Border
+
+sintaxe:
+	
+	border: size tipo cor;
+
+* Tamanho da grossura.
+* tipos: solid(normal), dotted (pontilhado), dashed (tracejado), groove (efeito 3d).
+
+Podemos trabalhar isoladamente os lados das bordas. (top(cima), bottom(baixo), left(esquerda), right(direita)
+
+border-radius (aqui vc consegue arredondar o lado das bordas. (Dá pra usar com border em todos os lados ou só em um lado específico)
+
+
+
+
+
+
+
+Aula 8 
+
+* Propriedade Margin
+
+sintaxe: 
+	margin: 50px;
+
+Se quiser controlar a margem em somente um lado, pode-se usar a seguinte sintaxe
+
+	margin-top: tamanho; (top: margem de cima se quiser embaixo usa margin-bottom e assim por diante) 
+
+short hand
+
+	margin: top right bottom left;
+
+
+Aula 9 
+
+* Propriedade Padding e Criando um botão simples
+
+Sintaxe:
+	padding: 50px; 50 pixels para todos os lados
+	padding: 50px 30px; 50 para cima e para baixo, 30 para a direita e esqueda;
+	padding: 50px 30px 40px 60px, cima, direit, baixo, esquerda (Funciona também com o margin).
+
+Aqui é muito parecido com o margin, sendo que é o preenchimentos entre a borda e os elementos da caixa.
+
+Para controlar os lados, fazemos igual margin, neste caso padding-top/
+
+
+Aula 10
+
+* Propriedade Width and Height
+
+width: tamanho; -> Usado para largura de um elemento.
+
+height: tamanho; -> usado para altura de um elemento.
+
+max-width: tamanho; -> Usado para a largura máxima de um elemento.
+
+
+
+Aula 11
+
+* Propriedade Text
+
+text-align: center; (left-default, center, right, justify, start, end)
+
+	start e end vão depender da direção, Se colocar da direita para a esquerda, o start vai ser o lado direito, se colocar left e não start, neste caso,
+o texto ficará do lado esquerdo independente da direção. E assim com o end também.
+
+direction: rtl; (rtl - right to left 'direita para a esquerda', ltr - o oposto)
+
+text-decoration: none; (underline, overline, line-through)
+
+text-transform: uppercase; (uppercase - transforma todas as letras em maiúscula, capitalize - somente as primeiras letras das palavras, lowecase - todas as letras minúscula)
+
+text-indent: tamanho; (Aqui vc consegue criar um TAB no texto)
+
+letter-spacing: tamanho; (espaço entre as letras, pode-se usar valores negativos para grudar as palavras)
+
+line-height: tamanho; (altura da linha, usa-se muito com números decimais sem px.)
+
+word-spacing: tamanho; (espaçamento entre palavras)
+
+
+
+
+Aula 12
+
+* Propriedade font
+
+font-family:...; (mudar a fonte)
+
+fonte externa
